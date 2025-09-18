@@ -1,26 +1,19 @@
 # Dependencias
 node_modules/
 
-# Archivos de entorno y secretos
-.env
-config.js
-secrets.json
-
 # Archivos de logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
-# Sistema operativo
+# Variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Sistema
 .DS_Store
 Thumbs.db
 
-# Compilaciones / builds
-dist/
-build/
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
