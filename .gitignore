@@ -1,0 +1,4 @@
+# Archivos con claves
+.env
+config.js
+secrets.json
